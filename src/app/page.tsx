@@ -1,4 +1,5 @@
-import HitCounter from './components/HitCounter/HitCounter';
+import Snippets from '@/components/Snippets/Snippets';
+import HitCounter from '../components/HitCounter/HitCounter';
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
         </h1>
       </div>
       <HitCounter />
+      <hr />
+      <Snippets />
     </main>
   );
 }

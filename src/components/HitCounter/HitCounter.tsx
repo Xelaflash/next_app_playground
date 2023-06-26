@@ -1,5 +1,5 @@
 import React from 'react';
-import { readFile, writeFile } from '../../../helpers/file-helpers';
+import { readFile, writeFile } from '../../helpers/file-helpers';
 import CounterBtn from './CounterBtn';
 
 const DATABASE_PATH = '/src/database.json';
